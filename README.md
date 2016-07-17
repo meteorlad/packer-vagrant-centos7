@@ -4,18 +4,15 @@
 
 This example build configurant install and configures CentOS 7.2 x86_64 mimimal using Shell, and then generates one Vagrant box files, for
 
-    - VirtualBox 
+    - VirtualBox
 
 ## Requirements
 
 The following software must be install/present on your local machine before you can use Packer to build the Vagrant box file:
 
     - [Packer](http:/www.packer.io/)
-
     - [Vagrant](http://vagrantup.com)
-
     - [VirtualBox](http://www.virtualbox.org)
-
 
 ## Usage
 
@@ -33,4 +30,4 @@ MIT license
 
 ## Author Infomation
 
-Created in 2014 by [Meteor Liu](http://meteorlad.me)
+Created in 2016 by [Meteor Liu](http://meteorlad.me)
