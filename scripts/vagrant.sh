@@ -6,11 +6,10 @@ date > /etc/vagrant_box_build_time
 
 # Add vagrant user
 /usr/sbin/groupadd vagrant
-
 /usr/sbin/useradd vagrant -g vagrant -G wheel
-
 echo "vagrant"|passwd --stdin vagrant
 
+# Add vagrant sudoer
 tee /etc/sudoers.d/vagrant <<EOF
 vagrant ALL=(ALL) NOPASSWD:ALL
 Defaults:vagrant !requiretty

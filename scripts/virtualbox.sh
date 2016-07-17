@@ -1,5 +1,6 @@
 #!/bin/bash
 set -e
+set -x
 
 # Installing the virtualbox guest additions
 VBOX_VERSION=$(cat /`whoami`/.vbox_version)
