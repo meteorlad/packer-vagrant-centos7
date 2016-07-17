@@ -1,4 +1,4 @@
-# Packer Example - CentOS 7 minimal Vagrant Box using Ansible Provisinoer
+# Packer - CentOS 7 minimal Vagrant Box
 
 **Current CentOS Version Used**:7.2
 
