@@ -15,6 +15,6 @@ NAME="eth0"
 DEVICE="eth0"
 ONBOOT="yes"
 TYPE="Ethernet"
-BOOTPROTO="DHCP"
+BOOTPROTO="dhcp"
 NM_CONTROLLER="no"
 EOF
