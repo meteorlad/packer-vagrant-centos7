@@ -3,6 +3,7 @@
 **Current CentOS Version Used**:7.2
 
 This example build configurant install and configures CentOS 7.2 x86_64 mimimal using Shell, and then generates one Vagrant box files, for
+
     - VirtualBox 
 
 ## Requirements
