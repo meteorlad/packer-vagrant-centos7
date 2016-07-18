@@ -1,5 +1,6 @@
 {
-  "_comment": "Build with `packer build centos7.json`",
+  "description":"CentOS7.2 x86_64 minimal for Packer",
+  "min_packer_version":"0.10.1",
   "builders": [
     {
       "name": "packer-centos-72",
@@ -9,9 +10,11 @@
       ],
       "boot_wait": "10s",
       "disk_size": "20480",
+      "hard_drive_interface": "sata",
       "http_directory": "http",
       "iso_urls": [
-        "/data/iso/CentOS-7-x86_64-Minimal-1511.iso"
+        "/data/iso/CentOS-7-x86_64-Minimal-1511.iso",
+        "http://mirrors.163.com/centos/7.2.1511/isos/x86_64/CentOS-7-x86_64-Minimal-1511.iso"
       ],
       "iso_checksum_type": "md5",
       "iso_checksum": "88c0437f0a14c6e2c94426df9d43cd67",
